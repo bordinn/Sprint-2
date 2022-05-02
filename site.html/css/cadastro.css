@@ -1,9 +1,17 @@
 body {
     height: 100%;
-    background-color: rgb(158, 158, 158);
     margin: auto;
     font-family: monospace;
     font-size: 15px;
+   background-color:  rgb(158, 158, 158);
+}
+
+.logo{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .header {
@@ -14,22 +22,21 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.titulo {
+    margin: 0px;
+    color: rgb(44, 167, 44);
+}
+
 .container {
     width: 100%;
     margin: auto;
     display: flex;
+
 }
 
-.logo{
-    position: relative;
+.header .container {
     align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.titulo {
-    margin: 0px;
-    color: rgb(44, 167, 44);
+    height: 100%;
 }
 
 .navbar {
@@ -37,7 +44,6 @@ body {
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    color: orange;
     display: flex;
     padding: 0%;
     margin-left: 500px;
@@ -47,24 +53,18 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.header .container {
-    align-items: center;
-    height: 100%;
-}
-
-
 .bannerlogin {
-        background-color: beige;
-        height: 220px;
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        margin: auto;
-       border-radius: 20px;
-       padding: 40px;
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+   border-radius: 20px;
+   padding: 40px;
 }
 
 .containerlogin {
@@ -73,11 +73,11 @@ body {
     display: flex;
 }
 
-.card {
+.cardlogin {
     margin-top: 20px;
 }
 
-.bannerlogin .card {
+.bannerlogin .cardlogin {
     background-color: beige;
     height: 220px;
     width: 300px;

@@ -4,10 +4,9 @@ body {
     margin: auto;
     font-family: monospace;
     font-size: 15px;
-
 }
 
-.logo {
+.logo{
     position: relative;
     align-items: center;
     display: flex;
@@ -18,14 +17,14 @@ body {
 .header {
     width: 100%;
     height: 100px;
-    border-bottom: 3px blue solid;
+    border-bottom: 3px rgb(255, 255, 255) solid;
     align-items: center;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo {
     margin: 0px;
-    color: #32b9cd;
+    color: rgb(44, 167, 44);
 }
 
 .container {
@@ -45,18 +44,18 @@ body {
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    color: orange;
     display: flex;
     padding: 0%;
     margin-left: 500px;
 }
 
 .a_nav {
-    color: orange;
+    color: rgb(0, 0, 0);
 }
 
 .banner {
     display: block;
+    margin: auto;
     height: 100vh;
     padding: 0;
     text-align: center;
@@ -84,12 +83,12 @@ body {
     margin: auto;
 }
 
-.textofoto {
-      position: relative;
-      right: 5%;
-      bottom: 5%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
 
+.foto {
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 10px 10px 10px 0;
+    max-width: 186px;
 }
+
