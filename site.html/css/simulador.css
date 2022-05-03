@@ -13,7 +13,7 @@ body {
 
 }
 
-.header {
+.headernav {
     width: 100%;
     height: 100px;
     border-bottom: 3px green solid;
@@ -26,14 +26,14 @@ body {
     color: rgb(44, 167, 44);
 }
 
-.container {
+.containernav {
     width: 100%;
     margin: auto;
     display: flex;
 
 }
 
-.header .container {
+.headernav .containernav {
     align-items: center;
     height: 100%;
 }
@@ -53,20 +53,56 @@ body {
 }
 
 
-
-.card {
-    position: absolute;
-    left: 50px;
-    bottom: 200px;
-   background-image: url(../img/Home.jpg);
-    height: 300px;
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 66px;
-    margin: auto;
+.header,
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.calculadora,
+.bibliografia {
+    display: grid;
 }
 
+.header {
+    justify-content: center;
+}
 
+.contexto {}
+
+.container-1 {}
+
+.container-2 {}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 2fr));
+    gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.container-3 .item {
+    border: 1px solid;
+    padding: 0 20px;
+    grid-column-end: span 2;
+}
+
+.img-contexto {
+    width: 100%;
+}
+
+.calculadora {
+    margin: 1% 0px;
+}
+
+#resultado {
+    border: 1px solid;
+    margin: 1%;
+    padding: 20px 0 20px 20px;
+    width: fit-content;
+}
+
+#resultado>h3 {
+    margin: 0;
+}
+
+.bibliografia {}
